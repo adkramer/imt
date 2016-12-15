@@ -1,0 +1,6 @@
+Django==1.10
+django-extensions
+django-debug-toolbar
+django-model-utils
+psycopg2
+django-crispy-forms
