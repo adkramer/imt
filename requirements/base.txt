@@ -4,3 +4,4 @@ django-debug-toolbar
 django-model-utils
 psycopg2
 django-crispy-forms
+django-environ

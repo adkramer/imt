@@ -46,7 +46,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'psycopg2',
+    'django_extensions',
     #myapps
+    'items',
 
 ]
 
@@ -86,7 +88,8 @@ WSGI_APPLICATION = 'imt.wsgi.application'
 
 DATABASES = {
     # Raises ImproperlyConfigured exception if DATABASE_URL not in os.environ
-    'default': env.db('DATABASE_URL',),
+    'default': env.db('DATABASE_URL',)
+    }
 DATABASES['default']['ATOMIC_REQUESTS'] = True
 
 
